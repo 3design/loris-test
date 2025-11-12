@@ -1329,3 +1329,16 @@ div.accordian li {
 	background: #fff;
 	border-radius: 20px;
 }
+
+/*new loris map*/
+
+.new-loris-map-holder {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.new-loris-map-holder iframe {
+      width: 100%;
+      height: auto; /* Or set a specific height if needed */
+      aspect-ratio: 16 / 9; /* For a 16:9 aspect ratio */
+      /* Adjust for other aspect ratios, e.g., 4 / 3 */
+    }
