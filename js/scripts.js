@@ -384,20 +384,20 @@ makeMarker({
   icon: image
 });   
 
-var contentString = 
-      '<div>'+
-      '<img src="http://www.queensu.ca/sites/all/themes/queensbase_omega/images/wordmark.png" class="logo">'+
-      "<h1>Queens's University</h1>"+
-      "<p><b>Queen's University</b> is located in Kingston Canada.</p>"+
-      '<p>Website: <a href="http://queensu.ca/" target="blank">queensu.ca</a></p>'+
-      '</div>';
-makeMarker({
-  position: new google.maps.LatLng(44.225572, -76.495506),
-  title: "Queen's University",
-  sidebarItem: "Queen's University",
-  content: contentString,
-  icon: image
-});  
+// var contentString = 
+//       '<div>'+
+//       '<img src="http://www.queensu.ca/sites/all/themes/queensbase_omega/images/wordmark.png" class="logo">'+
+//       "<h1>Queens's University</h1>"+
+//       "<p><b>Queen's University</b> is located in Kingston Canada.</p>"+
+//       '<p>Website: <a href="http://queensu.ca/" target="blank">queensu.ca</a></p>'+
+//       '</div>';
+// makeMarker({
+//   position: new google.maps.LatLng(44.225572, -76.495506),
+//   title: "Queen's University",
+//   sidebarItem: "Queen's University",
+//   content: contentString,
+//   icon: image
+// });  
 
 var contentString = 
       '<div>'+
@@ -579,20 +579,20 @@ makeMarker({
   icon: image
 }); 
 
-var contentString = 
-      '<div>'+
-      '<img src="http://www.uvm.edu/sites/all/themes/uvmbase/images/uvmlogo2014.svg" class="logo">'+
-      '<h1>The University of Vermont</h1>'+
-      "<p><b>The University of Vermont</b> is locoated in Burlington Vermont.</p>"+
-      '<p>Website: <a href="http://www.uvm.edu" target="blank">www.uvm.edu</a></p>'+
-      '</div>';
-makeMarker({
-  position: new google.maps.LatLng(44.477837, -73.196635),
-  title: "University of Vermont",
-  sidebarItem: "University of Vermont",
-  content: contentString,
-  icon: image
-}); 
+// var contentString = 
+//       '<div>'+
+//       '<img src="http://www.uvm.edu/sites/all/themes/uvmbase/images/uvmlogo2014.svg" class="logo">'+
+//       '<h1>The University of Vermont</h1>'+
+//       "<p><b>The University of Vermont</b> is locoated in Burlington Vermont.</p>"+
+//       '<p>Website: <a href="http://www.uvm.edu" target="blank">www.uvm.edu</a></p>'+
+//       '</div>';
+// makeMarker({
+//   position: new google.maps.LatLng(44.477837, -73.196635),
+//   title: "University of Vermont",
+//   sidebarItem: "University of Vermont",
+//   content: contentString,
+//   icon: image
+// }); 
 
 var contentString = 
       '<div>'+
@@ -604,25 +604,25 @@ var contentString =
 makeMarker({
   position: new google.maps.LatLng(50.922477, 6.361087),
   title: "1000 BRAINS ",
-  sidebarItem: "1000 BRAINS ",
+  sidebarItem: "1000 Gehirne / 1000 BRAINS ",
   content: contentString,
   icon: image
 }); 
 
-var contentString = 
-      '<div>'+
-      '<img src="https://www.mcgill.ca/bic/files/bic/artboard_9-100b.jpg" class="logo">'+
-      '<h1>The Open MEG Archive (OMEGA)</h1>'+
-      "<p><b>The Open MEG Archive (OMEGA)</b> is the fruit of a collaborative effort by the McConnell Brain Imaging Centre and the Université de Montréal to build a centralised repository in which to regroup MEG data in raw and processed form, for open dissemination.</p>"+
-      '<p>Website: <a href="https://www.mcgill.ca/bic/resources/omega" target="blank">www.mcgill.ca</a></p>'+
-      '</div>';
-makeMarker({
-  position: new google.maps.LatLng(45.504717, -73.577130),
-  title: "OMEGA",
-  sidebarItem: "OMEGA",
-  content: contentString,
-  icon: image
-}); 
+// var contentString = 
+//       '<div>'+
+//       '<img src="https://www.mcgill.ca/bic/files/bic/artboard_9-100b.jpg" class="logo">'+
+//       '<h1>The Open MEG Archive (OMEGA)</h1>'+
+//       "<p><b>The Open MEG Archive (OMEGA)</b> is the fruit of a collaborative effort by the McConnell Brain Imaging Centre and the Université de Montréal to build a centralised repository in which to regroup MEG data in raw and processed form, for open dissemination.</p>"+
+//       '<p>Website: <a href="https://www.mcgill.ca/bic/resources/omega" target="blank">www.mcgill.ca</a></p>'+
+//       '</div>';
+// makeMarker({
+//   position: new google.maps.LatLng(45.504717, -73.577130),
+//   title: "OMEGA",
+//   sidebarItem: "OMEGA",
+//   content: contentString,
+//   icon: image
+// }); 
 
 var contentString = 
       '<div>'+
@@ -713,6 +713,52 @@ makeMarker({
   content: contentString,
   icon: image
 });  
+
+var contentString = 
+      '<div>'+
+      // '<img src="https://www.cdut.edu.cn/images/logo.png" class="logo">'+
+      '<h1>Chengdu University of Technolog</h1>'+
+      '<p><b>Chengdu University of Technolog</b> is located in Chengdu China.</p>'+
+      '<p>Website: <a href="https://www.cdut.edu.cn/" target="blank">https://www.cdut.edu.cn/</a></p>'+
+      '</div>';
+makeMarker({
+  position: new google.maps.LatLng(30.665963698798976, 104.13688287139689),
+  title: "Chengdu University of Technology",
+  sidebarItem: "Chengdu University of Technology",
+  content: contentString,
+  icon: image
+}); 
+
+var contentString = 
+      '<div>'+
+      '<img src="https://hbcdstudy.org/wp-content/themes/ucsd/images/logo-img.png" class="logo">'+
+      '<h1>HEALthy Brain and Child Development (HBCD) Study</h1>'+
+      '<p><b>The HBCD Study</b>, sponsored by the National Institutes of Health, is the largest long-term study of early brain and child development in the United States.</p>'+
+      '<p>Website: <a href="https://hbcdstudy.org/" target="blank">https://hbcdstudy.org/</a></p>'+
+      '</div>';
+makeMarker({
+  position: new google.maps.LatLng(46.21059393458055, -94.40777036939544),
+  title: "HBCD Minnisota",
+  sidebarItem: "HBCD Minnisota",
+  content: contentString,
+  icon: image
+}); 
+
+var contentString = 
+      '<div>'+
+      '<img src="https://archimedesdata.wpenginepowered.com/wp-content/uploads/2025/04/Union-1.png" class="logo">'+
+      '<h1>ARCHIMEDES</h1>'+
+      '<p><b>Advanced Research Collaboration for Health Integration, Medical Exploration, and Data Synthesisy</b></p>'+
+      '<p>Website: <a href="https://archimedesdata.ca/" target="blank">https://archimedesdata.ca/</a></p>'+
+      '</div>';
+makeMarker({
+  position: new google.maps.LatLng(45.39427911584198, -75.72096814604055),
+  title: "ARCHIMEDES",
+  sidebarItem: "ARCHIMEDES",
+  content: contentString,
+  icon: image
+}); 
+
 
 /**
  *   fit viewport to markers
