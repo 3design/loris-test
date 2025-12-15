@@ -656,15 +656,15 @@ makeMarker({
 
 var contentString = 
       '<div>'+
-      '<img src="https://www.ualberta.ca/_assets/images/ua-logo-green.svg" class="logo">'+
-      '<h1>University of Alberta</h1>'+
-      "<p><b>The University of Alberta</b> is located in Edmonton Alberta. </p>"+
-      '<p>Website: <a href="https://ualberta.ca/" target="blank">ualberta.ca</a></p>'+
+      '<img src="https://calsnic.org/wp-content/uploads/2023/10/cropped-cropped-CALSNIC_logo_horizontal_resized_web-1.png" class="logo">'+
+      '<h1>CALSNIC</h1>'+
+      "<p><b>The Canadian ALS Neuroimaging Consortium (CALSNIC)</b>. The primary mission of CALSNIC is to provide the capacity to conduct standardized research in ALS and related disorders on a national scale.</p>"+
+      '<p>Website: <a href="https://calsnic.org/" target="blank">calsnic.org</a></p>'+
       '</div>';
 makeMarker({
   position: new google.maps.LatLng(53.523442, -113.525954),
   title: "University of Alberta",
-  sidebarItem: "University of Alberta",
+  sidebarItem: "CALSNIC",
   content: contentString,
   icon: image
 }); 
