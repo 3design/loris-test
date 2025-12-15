@@ -254,7 +254,7 @@ makeMarker({
 
   * the lat/long can be obtained on
   * google maps br right clicking the
-  * location on the map and selecting 'what's here'
+  * pinned location on the map
 
   position: new google.maps.LatLng(45.5089835, -73.5813425),
   title: "Neuro",
